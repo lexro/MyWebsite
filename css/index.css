@@ -1,0 +1,73 @@
+html {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, .5),
+      rgba(0, 0, 0, .5)
+    ),
+    url('../images/pianobackgroundblurry4.jpg') no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.headline {
+  position: relative;
+  top: 33.33%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.headline__title {
+  display: inline-block;
+  margin: 0;
+  font-size: 60px;
+}
+
+.headline__sub-title {
+  display: inline-block;
+}
+
+.icons {}
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  color: #ddd;
+  background: #333;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2em;
+  font-family: 'FontAwesome';
+  font-size: 25px;
+}
+
+.icon:hover {
+  color: #3a9fe5;
+  background: #222;
+}
+
+.icons__linked-in:before {
+  content: '\f0e1';
+}
+
+.icons__git-hub:before {
+  content: '\f09b';
+}
